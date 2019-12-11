@@ -1,0 +1,23 @@
+body {
+  background: #e4e0e0 !important; }
+  body h1 {
+    font-size: 24px; }
+  body h2 {
+    font-size: 20px; }
+
+.menu {
+  display: flex;
+  background: #f7b7b7;
+  padding: 0;
+  margin: 0; }
+  .menu-item {
+    list-style: none; }
+  .menu-item a {
+    display: block;
+    color: #333;
+    padding: 1em 1.5em;
+    cursor: pointer;
+    font-weight: 900; }
+    .menu-item a:hover {
+      background: #d1d1d1;
+      color: #031336; }
