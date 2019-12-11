@@ -31,3 +31,22 @@ body {
             }
         }
     }
+    footer{
+        background: black;
+        color: blanchedalmond;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 600;
+
+        }
+        .about-us-container{
+            display: flex;
+            flex-direction: row;
+        }
+        .about-us-work{
+           padding-left:720px;
+        }
+        .title{
+            text-align: center;
+        }

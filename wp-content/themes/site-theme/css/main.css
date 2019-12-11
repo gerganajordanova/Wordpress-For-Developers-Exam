@@ -21,3 +21,21 @@ body {
     .menu-item a:hover {
       background: #d1d1d1;
       color: #031336; }
+
+footer {
+  background: black;
+  color: blanchedalmond;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 600; }
+
+.about-us-container {
+  display: flex;
+  flex-direction: row; }
+
+.about-us-work {
+  padding-left: 720px; }
+
+.title {
+  text-align: center; }
