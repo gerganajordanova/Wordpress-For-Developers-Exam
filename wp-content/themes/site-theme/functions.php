@@ -53,10 +53,11 @@ function codex_widgets_init() {
           'public'=>true,
           'has_archieve'=>true,
           'menu_icon'=>'dashicons-images-alt2',
-          'supports'=>array('title' , 'editor' , 'thumbnail', 'custom-fields'),
+          'supports'=>array('title' , 'editor' , 'thumbnail', 'custom-fields' , 'categories'),
 
       );
-    register_post_type('product' , $args);
+    register_post_type('products' , $args);
+    
   }
   add_action( 'init' , 'my_post_type' );
 
@@ -69,9 +70,9 @@ function codex_widgets_init() {
             'singular_name' => 'Brand'
         ),
         'public'=>true,
-        'hierrarcical'=>true,
+        'hierrarcical'=>false,
 
     );
-    register_taxonomy( 'brands' , array('product'), $args);
+    register_taxonomy( 'brands' , array('products'), $args);
   }
   add_action( 'init' , 'my_taxonomy' );
